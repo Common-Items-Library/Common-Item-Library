@@ -1,22 +1,22 @@
 {
     "states": {
-        "gems": [
-            "dust",
-            "shard",
-            "gem",
+        "solids": [
             "rod",
+            "plate",
             "gear",
-            "plate"
+            "block",
+            "dust"
+        ],
+        "gems": [
+            { "inherit": "solids" },
+            "shard",
+            "gem"
         ],
 
         "metals": [
-            "dust",
+            { "inherit": "solids" },
             "nugget",
-            "ingot",
-            "block",
-            "rod",
-            "gear",
-            "plate"
+            "ingot"
         ],
 
         "radioactives": [{
@@ -130,8 +130,7 @@
                 "parsnip",
                 "ginger",
                 "eggplant",
-                "bell pepper",
-                "onion"
+                "bell pepper"
             ],
             "fruits": [
                 "blueberry",

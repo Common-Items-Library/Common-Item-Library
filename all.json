@@ -6,7 +6,7 @@
       "gem",
       "rod",
       "gear",
-      "plate",
+      "plate"
     ],
 
     "metals": [
@@ -16,12 +16,37 @@
       "block",
       "rod",
       "gear",
-      "plate",
+      "plate"
+    ],
+
+    "radioactives": [
+        { "inherit": "metals" }
+    ],
+
+    "other": [
+        "gear",
+        "plate",
+        "rod"
     ],
 
     "foodstuff": [
       "raw",
-      "cooked"
+      "cooked",
+      "spoiled",
+      {
+          "meats": [
+          "steak",
+          "nugget",
+          "meatball",
+          "tender",
+          "filet"
+          ],
+
+          "fish": [
+            "filet",
+            "finger"
+          ]
+        }
     ],
 
     "compressed": [
@@ -38,18 +63,110 @@
   
   
   "materials": {
-    "gems": [],
-    "metals": [],
-    "foodstuff": [],
-    "compressed": []
+    "gems": [
+        "amethyst",
+        "diamond",
+        "emerald",
+        "quartz",
+        "onyx",
+        "peridot",
+        "citrine",
+        "agate",
+        "jade",
+        "garnet",
+        "jasper",
+        "ruby",
+        "sapphire",
+        "topaz",
+        "lapis lazuli",
+        "spinel"
+    ],
+    "metals": [
+        "iron",
+        "steel",
+        "pyrite",
+        "tungsten",
+        "aluminum",
+        "brass",
+        "cobalt",
+        "copper",
+        "electrum",
+        "gold",
+        "lead",
+        "osmium",
+        "platinum",
+        "silver",
+        "tin",
+        "titanium",
+        "zinc"
+    ],
+    "radioactives": [
+        "thorium",
+        "palladium",
+        "plutonium",
+        "iridium",
+        "uranium"
+    ],
+    "other": [
+        "stone",
+        "wood"
+    ],
+    "foodstuff": {
+        "vegetables": [
+            "carrot",
+            "beet",
+            "pea",
+            "bean",
+            "broccoli",
+            "corn",
+            "cucumber",
+            "potato",
+            "lettuce",
+            "tomato",
+            "spinach",
+            "pumpkin",
+            "radish",
+            "leek",
+            "parsnip",
+            "ginger",
+            "eggplant",
+            "bell pepper"
+        ],
+        "meats": [
+            "steak",
+            "mutton",
+            "chicken",
+            "porkchop",
+            "ground beef",
+            "bacon",
+            "sausage",
+            "tofu",
+            "rabbit",
+            "meatball",
+            "tenders"
+            
+        ],
+        "fish": [
+            "salmon",
+            "cod",
+            "tuna",
+            "tilapia",
+            "shrimp",
+            "sardine",
+            "herring",
+            "anchovy",
+            "bass",
+            "snapper"
+        ]
+    },
+    "compressed": [
+        "cobblestone",
+        "wood",
+        "sand",
+        "gravel",
+        "scaffolding",
+        "slime block",
+        "honey block"
+    ]
   }
 }
-
-
-
-
-
-
-
-
-

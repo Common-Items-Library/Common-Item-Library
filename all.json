@@ -49,7 +49,7 @@
             }
         ],
 
-        "compressed": [
+        "compression": [
             "single",
             "double",
             "triple",
@@ -177,7 +177,7 @@
                 "snapper"
             ]
         },
-        "compressed": [
+        "compressable": [
             "cobblestone",
             "wood",
             "sand",

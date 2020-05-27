@@ -1,10 +1,55 @@
 {
-  "shard": {},
-  "gem": {},
-  "nugget": {},
-  "ingot": {},
-  "block": {},
-  "rawfood": {},
-  "cookedfood": {},
-  "compression": {}
+  "states": {
+    "gems": [
+      "dust",
+      "shard",
+      "gem",
+      "rod",
+      "gear",
+      "plate",
+    ],
+
+    "metals": [
+      "dust",
+      "nugget",
+      "ingot",
+      "block",
+      "rod",
+      "gear",
+      "plate",
+    ],
+
+    "foodstuff": [
+      "raw",
+      "cooked"
+    ],
+
+    "compressed": [
+      "single",
+      "double",
+      "triple",
+      "quadruple",
+      "quintuple",
+      "sextuple",
+      "septuple",
+      "octuple"
+    ]
+  },
+  
+  
+  "materials": {
+    "gems": [],
+    "metals": [],
+    "foodstuff": [],
+    "compressed": []
+  }
 }
+
+
+
+
+
+
+
+
+

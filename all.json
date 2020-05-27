@@ -1,172 +1,190 @@
 {
-  "states": {
-    "gems": [
-      "dust",
-      "shard",
-      "gem",
-      "rod",
-      "gear",
-      "plate"
-    ],
-
-    "metals": [
-      "dust",
-      "nugget",
-      "ingot",
-      "block",
-      "rod",
-      "gear",
-      "plate"
-    ],
-
-    "radioactives": [
-        { "inherit": "metals" }
-    ],
-
-    "other": [
-        "gear",
-        "plate",
-        "rod"
-    ],
-
-    "foodstuff": [
-      "raw",
-      "cooked",
-      "spoiled",
-      {
-          "meats": [
-          "steak",
-          "nugget",
-          "meatball",
-          "tender",
-          "filet"
-          ],
-
-          "fish": [
-            "filet",
-            "finger"
-          ]
-        }
-    ],
-
-    "compressed": [
-      "single",
-      "double",
-      "triple",
-      "quadruple",
-      "quintuple",
-      "sextuple",
-      "septuple",
-      "octuple"
-    ]
-  },
-  
-  
-  "materials": {
-    "gems": [
-        "amethyst",
-        "diamond",
-        "emerald",
-        "quartz",
-        "onyx",
-        "peridot",
-        "citrine",
-        "agate",
-        "jade",
-        "garnet",
-        "jasper",
-        "ruby",
-        "sapphire",
-        "topaz",
-        "lapis lazuli",
-        "spinel"
-    ],
-    "metals": [
-        "iron",
-        "steel",
-        "pyrite",
-        "tungsten",
-        "aluminum",
-        "brass",
-        "cobalt",
-        "copper",
-        "electrum",
-        "gold",
-        "lead",
-        "osmium",
-        "platinum",
-        "silver",
-        "tin",
-        "titanium",
-        "zinc"
-    ],
-    "radioactives": [
-        "thorium",
-        "palladium",
-        "plutonium",
-        "iridium",
-        "uranium"
-    ],
-    "other": [
-        "stone",
-        "wood"
-    ],
-    "foodstuff": {
-        "vegetables": [
-            "carrot",
-            "beet",
-            "pea",
-            "bean",
-            "broccoli",
-            "corn",
-            "cucumber",
-            "potato",
-            "lettuce",
-            "tomato",
-            "spinach",
-            "pumpkin",
-            "radish",
-            "leek",
-            "parsnip",
-            "ginger",
-            "eggplant",
-            "bell pepper"
+    "states": {
+        "gems": [
+            "dust",
+            "shard",
+            "gem",
+            "rod",
+            "gear",
+            "plate"
         ],
-        "meats": [
-            "steak",
-            "mutton",
-            "chicken",
-            "porkchop",
-            "ground beef",
-            "bacon",
-            "sausage",
-            "tofu",
-            "rabbit",
-            "meatball",
-            "tenders"
-            
+
+        "metals": [
+            "dust",
+            "nugget",
+            "ingot",
+            "block",
+            "rod",
+            "gear",
+            "plate"
         ],
-        "fish": [
-            "salmon",
-            "cod",
-            "tuna",
-            "tilapia",
-            "shrimp",
-            "sardine",
-            "herring",
-            "anchovy",
-            "bass",
-            "snapper"
+
+        "radioactives": [{
+            "inherit": "metals"
+        }],
+
+        "other": [
+            "gear",
+            "plate",
+            "rod"
+        ],
+
+        "foodstuff": [
+            "raw",
+            "cooked",
+            "spoiled",
+            {
+                "meats": [
+                    "steak",
+                    "nugget",
+                    "meatball",
+                    "tender",
+                    "filet"
+                ],
+
+                "fish": [
+                    "filet",
+                    "finger"
+                ]
+            }
+        ],
+
+        "compressed": [
+            "single",
+            "double",
+            "triple",
+            "quadruple",
+            "quintuple",
+            "sextuple",
+            "septuple",
+            "octuple"
         ]
     },
-    "compressed": [
-        "cobblestone",
-        "wood",
-        "sand",
-        "gravel",
-        "scaffolding",
-        "slime block",
-        "honey block"
-    ]
-  }
+
+
+    "materials": {
+        "gems": [
+            "amethyst",
+            "diamond",
+            "emerald",
+            "quartz",
+            "onyx",
+            "peridot",
+            "citrine",
+            "agate",
+            "jade",
+            "garnet",
+            "jasper",
+            "ruby",
+            "sapphire",
+            "topaz",
+            "lapis lazuli",
+            "spinel"
+        ],
+        "metals": [
+            "iron",
+            "steel",
+            "pyrite",
+            "tungsten",
+            "aluminum",
+            "brass",
+            "cobalt",
+            "copper",
+            "electrum",
+            "gold",
+            "lead",
+            "osmium",
+            "platinum",
+            "silver",
+            "tin",
+            "titanium",
+            "zinc"
+        ],
+        "radioactives": [
+            "thorium",
+            "palladium",
+            "plutonium",
+            "iridium",
+            "uranium"
+        ],
+        "other": [
+            "stone",
+            "wood"
+        ],
+        "foodstuff": {
+            "vegetables": [
+                "carrot",
+                "beet",
+                "pea",
+                "bean",
+                "broccoli",
+                "corn",
+                "cucumber",
+                "potato",
+                "lettuce",
+                "tomato",
+                "spinach",
+                "pumpkin",
+                "radish",
+                "leek",
+                "parsnip",
+                "ginger",
+                "eggplant",
+                "bell pepper"
+            ],
+            "fruits": [
+                "blueberry",
+                "raspberry",
+                "grape",
+                "peach",
+                "apple",
+                "banana",
+                "orange",
+                "mango",
+                "watermelon",
+                "pineapple",
+                "strawberry",
+                "cherry",
+                "coconut",
+                "avocado",
+                "plum",
+                "kiwi",
+                "lemon",
+                "pear",
+                "dragonfruit"
+            ],
+            "meats": [
+                "steak",
+                "mutton",
+                "chicken",
+                "porkchop",
+                "ground beef",
+                "bacon",
+                "sausage",
+                "tofu",
+                "rabbit"
+            ],
+            "fish": [
+                "salmon",
+                "cod",
+                "tuna",
+                "tilapia",
+                "shrimp",
+                "sardine",
+                "herring",
+                "anchovy",
+                "bass",
+                "snapper"
+            ]
+        },
+        "compressed": [
+            "cobblestone",
+            "wood",
+            "sand",
+            "gravel",
+            "scaffolding",
+            "slime block",
+            "honey block"
+        ]
+    }
 }

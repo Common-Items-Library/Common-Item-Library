@@ -61,25 +61,25 @@
         ]
     },
 
-
+    //all indexes are from splendor128
     "materials": {
         "gems": [
-            "amethyst",
-            "diamond",
-            "emerald",
-            "quartz",
-            "onyx",
-            "peridot",
-            "citrine",
-            "agate",
-            "jade",
-            "garnet",
-            "jasper",
-            "ruby",
-            "sapphire",
-            "topaz",
-            "lapis lazuli",
-            "spinel"
+            "amethyst",       // index-54 , #9052bc       
+            "diamond",        // index-42 , #73efe8      
+            "emerald",        // index-34 , #42a459       
+            "quartz",         // index-43 , #f1f2ff       
+            "onyx",           // index- , #   
+            "peridot",        // index- , #       
+            "citrine",        // index- , #       
+            "agate",          // index- , #       
+            "jade",           // index- , #   
+            "garnet",         // index- , #       
+            "jasper",         // index- , #       
+            "ruby",           // index- , #   
+            "sapphire",       // index- , #       
+            "topaz",          // index- , #       
+            "lapis lazuli",   // index- , #           
+            "spinel"            
         ],
         "metals": [
             "iron",
@@ -109,7 +109,8 @@
         ],
         "other": [
             "stone",
-            "wood"
+            "wood",
+            "bone"
         ],
         "foodstuff": {
             "vegetables": [

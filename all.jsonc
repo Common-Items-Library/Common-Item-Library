@@ -64,22 +64,17 @@
     //all indexes are from splendor128
     "materials": {
         "gems": [
-            "amethyst",       // index-54 , #9052bc       
+            "citrine",        // yellow     index-10 , #fff089      
+            "jasper",         // orange     index-05 , #b9451d
+            "ruby",           // red        index-   , #requires custom dark palette
+            "amethyst",       // purple     index-54 , #9052bc       
+            "topaz",          // blue       index-40 , #2789cd
+            "peridot",        // green      index-29 , #8fd032       
+            "quartz",         // white      index-62 , #ecebe7       
+            "onyx",           // black      index-0  , #requires custom dark palette
+            // vanilla
             "diamond",        // index-42 , #73efe8      
-            "emerald",        // index-34 , #42a459       
-            "quartz",         // index-43 , #f1f2ff       
-            "onyx",           // index- , #   
-            "peridot",        // index- , #       
-            "citrine",        // index- , #       
-            "agate",          // index- , #       
-            "jade",           // index- , #   
-            "garnet",         // index- , #       
-            "jasper",         // index- , #       
-            "ruby",           // index- , #   
-            "sapphire",       // index- , #       
-            "topaz",          // index- , #       
-            "lapis lazuli",   // index- , #           
-            "spinel"            
+            "emerald"         // index-34 , #42a459                 
         ],
         "metals": [
             "iron",

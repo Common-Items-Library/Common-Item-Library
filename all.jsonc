@@ -19,9 +19,15 @@
             "ingot"
         ],
 
-        "radioactives": [{
-            "inherit": "metals"
-        }],
+        "radioactives": [
+            { "inherit": "metals" }
+        ],
+
+        "other": [
+           "rod",
+           "plate",
+           "gear"
+        ],
 
         "foodstuff": [
             "raw",

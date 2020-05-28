@@ -144,6 +144,7 @@
                 "pear",
                 "dragonfruit"
             ],
+            // meats shapes need to be re-thought
             "meats": [
                 "steak",
                 "mutton",
@@ -155,6 +156,7 @@
                 "tofu",
                 "rabbit"
             ],
+            // fish are okay tho
             "fish": [
                 "salmon",
                 "cod",

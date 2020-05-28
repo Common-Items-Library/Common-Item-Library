@@ -23,12 +23,6 @@
             "inherit": "metals"
         }],
 
-        "other": [
-            "gear",
-            "plate",
-            "rod"
-        ],
-
         "foodstuff": [
             "raw",
             "cooked",

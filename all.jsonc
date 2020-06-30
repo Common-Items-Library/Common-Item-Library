@@ -39,7 +39,9 @@
                     "nugget",
                     "meatball",
                     "tender",
-                    "filet"
+                    "filet",
+                    "sausage",
+                    "bacon"
                 ],
 
                 "fish": [
@@ -152,13 +154,10 @@
             ],
             // meats shapes need to be re-thought
             "meats": [
-                "steak",
+                "beef",
                 "mutton",
                 "chicken",
-                "porkchop",
-                "ground beef",
-                "bacon",
-                "sausage",
+                "ham",
                 "tofu",
                 "rabbit"
             ],

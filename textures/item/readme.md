@@ -1,1 +1,1 @@
-.
+Every texture are structured in accordance to https://github.com/Common-Items-Library/Common-Item-Library/blob/master/all.jsonc

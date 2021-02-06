@@ -127,7 +127,10 @@
                 "parsnip",
                 "ginger",
                 "eggplant",
-                "bell pepper"
+                "red bell pepper",
+				"yellow bell pepper",
+				"orange bell pepper",
+				"green bell pepper"
             ],
             "fruits": [
                 "blueberry",

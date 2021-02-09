@@ -1,0 +1,145 @@
+
+////////////////////////////
+// manual colors
+$darker : #1C2222;
+$dark   : #31393C;
+$mid    : #6E8787;
+$light  : #C7D1D1;
+$lighter: #E9EDED;
+
+$primary        : #2176FF;
+$primary_light  : #33A1FD;
+
+$secondary      : #F79824;
+$secondary_light: #FDCA40;
+
+
+////////////////////////////
+
+$shadow-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$shadow-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$shadow-3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+$shadow-4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+$shadow-5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+$shadow-border: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+
+
+////////////////////////////
+
+$radius: 5px;
+
+
+////////////////////////////
+
+@mixin animate {
+  transition: all 0.25s ease-in-out;
+  
+}
+
+////////////////////////////
+
+// *,
+// *:before,
+// *:after {
+//   box-sizing: border-box;
+// }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: $darker;
+}
+
+
+.content {
+  padding: 2.5rem;
+
+}
+
+// expanders
+
+.expander {
+  display: inline-block;
+  user-select: none;
+  padding: 1rem;
+  color: $lighter;
+  font-size: 1.1rem;
+  padding: 1rem 0;
+  margin-right: 1.5rem; 
+  
+  // cursor: pointer;
+   & + span {
+     font-style: italic;
+     color: $mid;
+   }
+}
+
+.expander-dropdown {
+  // commented out below to disable accordion functionality
+  // visibility: hidden;
+  // max-height: 0;
+  // opacity: 0;
+  transition: all 0.5s ease-in-out;
+  
+  
+  .expander-content {
+    display: flex;
+    padding: 1rem;
+    margin: 0 2rem;
+    border-radius: $radius;
+    background: $dark;
+    color: $light;
+    box-shadow: $shadow-2;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+input[name="expander"] {
+  display: none;
+}
+input[name="expander"]:checked + .expander-dropdown {
+  max-height: 999rem; 
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+// card
+
+.card {
+  display: flex;
+  justify-content: center;
+  background: $light;
+  border-radius: $radius;
+  // overflow: hidden;
+  position: relative;
+  height: 6rem;
+  width: 6rem;
+  margin: 0.5rem;
+  margin-bottom: 2rem;
+
+  @include animate;
+  cursor: pointer;
+
+  .desc {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    width: 100%;
+
+    color: $mid;
+  }
+
+  &:hover {
+    box-shadow: $shadow-3;
+  }
+}
